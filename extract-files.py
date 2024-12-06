@@ -42,6 +42,10 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libcamera_sdm660_shim.so'),
     (
         'vendor/lib/libFaceGrade.so',
+    ): blob_fixup()
+        .remove_needed('libandroid.so')
+        .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
+    (
         'vendor/lib/libXMFD_AgeGender.so',
         'vendor/lib/lib_lowlight.so',
         'vendor/lib/libarcsoft_beautyshot.so',
