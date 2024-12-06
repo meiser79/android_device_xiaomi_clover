@@ -41,7 +41,7 @@ vendor/etc/camera/s5k5e8_chromatix.xml|a082b4d7d5d31ffcd750683befc48e70edba5722
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin|1ca031d5f8eb0e6aa3eedf7df8d53223b5054bc5
 
 # Camera
-vendor/lib/hw/camera.sdm660.so;DISABLE_CHECKELF|41bb59a592607edbdb71b57de1c58b24c25faab1
+vendor/lib/hw/camera.sdm660.so;DISABLE_CHECKELF|bffac32247e33375f1d8a3fb8a83a38d8003afaf|c37ccdedbc8a5e2605e2706f709a6b7b87d5f797
 vendor/lib/libFaceGrade.so;DISABLE_CHECKELF
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/lib_lowlight.so;DISABLE_CHECKELF
