@@ -69,6 +69,11 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libvideobokeh.so',
     ): blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
+    (
+        'vendor/lib/vendor.qti.hardware.fingerprint@1.0.so',
+        'vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so',
+    ): blob_fixup()
+        .replace_needed('libhidlbase.so', 'libhidlbase-v32.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
